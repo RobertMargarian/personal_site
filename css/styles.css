@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 2em;
+  color: #40514E;
 }
 
 hr {
@@ -38,7 +39,12 @@ h3 {
 p {
   font-size: 60%;
   font-family: 'Montserrat', sans-serif;
-  color: #40514E;
+  line-height: 2;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
 }
 
 .programmer-img {
@@ -49,7 +55,6 @@ p {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .skill-img1 {
@@ -71,7 +76,7 @@ p {
 }
 
 .middle-container {
-  margin: auto auto 50px auto;
+  margin: 100px auto 50px auto;
 }
 
 .bottom-container {
@@ -91,7 +96,7 @@ p {
   position: absolute;
 }
 
-.footer-link {
+a {
   color: #11999E;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
@@ -100,13 +105,20 @@ p {
   padding-top: 10px;
 }
 
+a:hover {
+  color: #EAF6F6;
+}
+
 .last-line {
   color: #EAF6F6;
-  font-size: 60%;
+  font-size: 50%;
   display: block;
+  padding: 10px 0;
 }
 
 .contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .btn {
